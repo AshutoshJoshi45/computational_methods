@@ -1,0 +1,6 @@
+A stiff differential equation is a differential equation which cannot be solved by all numerical methods.
+Some of the numerical methods are found to be unstable for solving them.
+A common example is when the rate of change of a variable is proportional to the variable itself. 
+An example is newton's law of cooling.
+As discussed in class we can use backward euler method to resolve unstability. 
+I could not find a library in numpy but scipy.integrate.odeint can solve stiff and non stiff differential equations.
