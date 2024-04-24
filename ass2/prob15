@@ -1,0 +1,10 @@
+A system of equations is defined using the gsl_odeiv2_system datatype.
+The lowest level components are the stepping functions which advance a solution from time t to t+h for a fixed step-size h and estimate the resulting local error.
+Some types are:
+gsl_odeiv2_step_type *gsl_odeiv2_step_rk2
+gsl_odeiv2_step_type *gsl_odeiv2_step_rk4
+gsl_odeiv2_step_type *gsl_odeiv2_step_rkf45
+Adaptive step size techniques can be invoked using:
+type gsl_odeiv2_control
+The evolution function combines the results of a stepping function and control function to reliably advance the solution forward one step using an acceptable step-size.
+type gsl_odeiv2_evolve
