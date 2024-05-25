@@ -1,0 +1,2 @@
+Result for run 1: chi2=29.491667, result=Not sufficiently random
+Result for run 2: chi2=1.141667, result=Not sufficiently random

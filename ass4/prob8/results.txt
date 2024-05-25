@@ -1,0 +1,2 @@
+Area of a unit circle= 3.14352
+Volume of a 10d sphere= 2.57024
